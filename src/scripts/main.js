@@ -8,7 +8,7 @@ const saveProduct = (product) => {
     // Save the product to the API
     DataManager.saveProduct(product)
     .then(() => {
-        renderProductList()
+        renderProductList(null)
     })
 }
 
